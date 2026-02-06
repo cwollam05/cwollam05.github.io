@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorlando | Create Account - Step 1</title>
+  <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+
+  <header class="top-bar">
+    <a href="home.html" class="logo">
+      <img src="../images/explorlando.png" alt="Explorlando Logo">
+    </a>
+    <a href="profile.html" class="account-btn">
+      <div class="avatar"></div>
+      <span>My Account</span>
+    </a>
+  </header>
+
+  <aside class="sidebar">
+    <a href="login.html" class="nav-btn active">Login</a>
+    <a href="profile.html" class="nav-btn">Profile</a>
+    <a href="aboutus.html" class="nav-btn">About Us</a>
+    <a href="attractions.html" class="nav-btn">Attractions</a>
+    <a href="open-lobby.html" class="nav-btn">Open Lobby</a>
+    <a href="spotlight.html" class="nav-btn">Explorlando Spotlight</a>
+    <a href="for_business.html" class="nav-btn">For Businesses</a>
+    <a href="settings.html" class="nav-btn">Settings</a>
+  </aside>
+
+  <main class="content">
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+    <div class="circle c3"></div>
+
+    <a href="login.html" class="back-btn">‹</a>
+
+    <div class="welcome-banner">Join the Fun!</div>
+
+    <div class="form-container">
+      <div class="form-title">Sign Up:</div>
+
+      <form>
+        <input type="text" name="firstName" placeholder="First Name" autocomplete="given-name">
+        <input type="text" name="lastName" placeholder="Last Name" autocomplete="family-name">
+        <input type="email" name="email" placeholder="Email" autocomplete="email">
+        <input type="password" name="password" placeholder="Password" autocomplete="new-password">
+        <input type="password" name="confirmPassword" placeholder="Confirm Password" autocomplete="new-password">
+
+        <div class="form-actions">
+          <button type="button" class="btn" onclick="goToLogin()">Back</button>
+          <button type="button" class="btn green" onclick="goToCreateAccount2()">Next</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorlando | Partnership Request Form</title>
+  <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+
+  <header class="top-bar">
+    <a href="home.html" class="logo">
+      <img src="../images/explorlando.png" alt="Explorlando Logo">
+    </a>
+    <a href="profile.html" class="account-btn">
+      <div class="avatar"></div>
+      <span>My Account</span>
+    </a>
+  </header>
+
+  <aside class="sidebar">
+    <a href="profile.html" class="nav-btn">Profile</a>
+    <a href="aboutus.html" class="nav-btn">About Us</a>
+    <a href="attractions.html" class="nav-btn">Attractions</a>
+    <a href="open-lobby.html" class="nav-btn">Open Lobby</a>
+    <a href="spotlight.html" class="nav-btn">Explorlando Spotlight</a>
+    <a href="for_business.html" class="nav-btn active">For Businesses</a>
+    <a href="settings.html" class="nav-btn">Settings</a>
+  </aside>
+
+  <main class="content">
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+    <div class="circle c3"></div>
+
+    <a href="for_business.html" class="back-btn">‹</a>
+
+    <div class="title">Explorlando Partnership Request Form</div>
+
+    <div class="description">
+      <p>Fill out the following with the appropriate information to request an advertising partnership
+        with Explorlando!</p>
+    </div>
+
+    <div class="form-container" style="max-width:600px;">
+      <form action="for_business_submit.html" method="get">
+        <div class="form-group">
+          <label>Name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-group">
+          <label>Business Name:</label>
+          <input type="text" id="businessName" name="businessName">
+        </div>
+
+        <div class="form-group">
+          <label>Attraction Name:</label>
+          <input type="text" id="attractionName" name="attractionName">
+        </div>
+
+        <div class="form-group">
+          <label>Business Email:</label>
+          <input type="text" id="email" name="email">
+        </div>
+
+        <div class="form-group">
+          <label>Business Phone:</label>
+          <input type="text" id="phone" name="phone">
+        </div>
+
+        <div class="form-group">
+          <label>Estimated Marketing Budget (Example Format: $1000):</label>
+          <input type="text" id="budget" name="budget">
+        </div>
+
+        <div class="form-group">
+          <label>Browse Marketing Content (user selects (4 x 3) images or 2160 x 1620 pixels):</label>
+          <input type="file" id="content" name="content" style="background:none;padding:10px 0;">
+        </div>
+
+        <div style="text-align:center;margin-top:20px;">
+          <button type="submit" class="btn green">Submit Form</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

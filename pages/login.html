@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorlando | Login</title>
+  <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+
+  <header class="top-bar">
+    <a href="home.html" class="logo">
+      <img src="../images/explorlando.png" alt="Explorlando Logo">
+    </a>
+    <a href="profile.html" class="account-btn">
+      <div class="avatar"></div>
+      <span>My Account</span>
+    </a>
+  </header>
+
+  <aside class="sidebar">
+    <a href="login.html" class="nav-btn active">Login</a>
+    <a href="profile.html" class="nav-btn">Profile</a>
+    <a href="aboutus.html" class="nav-btn">About Us</a>
+    <a href="attractions.html" class="nav-btn">Attractions</a>
+    <a href="open-lobby.html" class="nav-btn">Open Lobby</a>
+    <a href="spotlight.html" class="nav-btn">Explorlando Spotlight</a>
+    <a href="for_business.html" class="nav-btn">For Businesses</a>
+    <a href="settings.html" class="nav-btn">Settings</a>
+  </aside>
+
+  <main class="content">
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+    <div class="circle c3"></div>
+
+    <div class="welcome-banner">Welcome to Explorlando</div>
+
+    <div style="text-align:center;margin-bottom:30px;">
+      <img src="../images/Explorlando-login-page.jpg" alt="Welcome to Explorlando" style="max-width:400px;width:100%;border-radius:20px;box-shadow:0 4px 15px rgba(0,0,0,0.2);">
+    </div>
+
+    <div class="form-container">
+      <div class="form-title">Login</div>
+
+      <form>
+        <input type="text" name="username" placeholder="Username / Email" autocomplete="username">
+        <input type="password" name="password" placeholder="Password" autocomplete="current-password">
+
+        <div class="form-link">
+          <a href="#">Forgot Password?</a>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn" onclick="goToCreateAccount1()">Create Account</button>
+          <button type="button" class="btn green" onclick="goToProfile()">Log In</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

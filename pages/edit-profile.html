@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorlando | Edit Profile</title>
+  <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+
+  <header class="top-bar">
+    <a href="home.html" class="logo">
+      <img src="../images/explorlando.png" alt="Explorlando Logo">
+    </a>
+    <a href="profile.html" class="account-btn">
+      <div class="avatar"></div>
+      <span>My Account</span>
+    </a>
+  </header>
+
+  <aside class="sidebar">
+    <a href="login.html" class="nav-btn">Login</a>
+    <a href="profile.html" class="nav-btn active">Profile</a>
+    <a href="aboutus.html" class="nav-btn">About Us</a>
+    <a href="attractions.html" class="nav-btn">Attractions</a>
+    <a href="open-lobby.html" class="nav-btn">Open Lobby</a>
+    <a href="spotlight.html" class="nav-btn">Explorlando Spotlight</a>
+    <a href="for_business.html" class="nav-btn">For Businesses</a>
+    <a href="settings.html" class="nav-btn">Settings</a>
+  </aside>
+
+  <main class="content">
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+    <div class="circle c3"></div>
+
+    <a href="profile.html" class="back-btn">‹</a>
+
+    <div class="welcome-banner">Hello, welcome Sarah</div>
+
+    <div class="profile-container">
+      <section class="profile-card">
+        <h3>Personal Information</h3>
+        <div class="profile-row">
+          <div class="photo-circle">
+            <img src="../images/ProfileIconImage.png" alt="Profile Photo" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
+          </div>
+          <div class="profile-fields">
+            <label>Display Name:</label>
+            <input type="text" value="Sarah">
+
+            <label>Email:</label>
+            <input type="email" value="sarah@email.com">
+
+            <label>Date of Birth:</label>
+            <input type="text" value="MM/DD/YYYY">
+
+            <label>Phone Number:</label>
+            <input type="text" value="(000) 000-0000">
+          </div>
+        </div>
+      </section>
+
+      <section class="profile-card">
+        <h3>More Information</h3>
+        <label>Change Username:</label>
+        <input type="text" placeholder="New username">
+
+        <label>Change Password:</label>
+        <input type="password" placeholder="New password">
+      </section>
+
+      <section class="profile-card">
+        <label>Bio:</label>
+        <textarea placeholder="Tell us about yourself..."></textarea>
+
+        <label>Pronouns:</label>
+        <input type="text" placeholder="she/her">
+
+        <label>Interests:</label>
+        <textarea placeholder="What are you interested in?..."></textarea>
+      </section>
+
+      <div style="text-align:center;margin-top:20px;">
+        <button type="button" class="btn-primary" onclick="goToProfile()">Save Changes</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
