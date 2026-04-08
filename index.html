@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connery Wollam — Digital Media Designer</title>
+  <meta name="description" content="Portfolio of Connery Wollam — Digital Media Designer specializing in graphic design, video editing, and web development." />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Connery Wollam — Digital Media Designer" />
+  <meta property="og:description" content="Portfolio of Connery Wollam — Digital Media Designer." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://connerywollam.com/" />
+  <meta property="og:image"       content="assets/images/Hero image.png" />
+
+  <!-- Favicon placeholder — replace favicon.ico in root -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">Connery Wollam</a>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/interests">Interests</a></li>
+        <li><a href="/missions">Missions</a></li>
+        <li><a href="/experience">Experience</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__bg-shape"></div>
+
+    <div class="hero__inner">
+      <!-- Text -->
+      <div class="hero__content">
+        <span class="hero__greeting">Welcome to my portfolio</span>
+        <h1 class="hero__name">Connery<br>Wollam</h1>
+        <div class="hero__typewriter-wrap">
+          <span class="label">I&rsquo;m a</span>
+          <span class="typewriter"></span>
+        </div>
+        <p class="hero__bio">
+          <!-- TODO: Replace with your own short bio (2-3 sentences) -->
+          Digital Media Designer who loves creating things that look good and work well; whether that's graphics, photo, video, or even a website.
+        </p>
+        <blockquote class="hero__verse">
+          <p>&ldquo;Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.&rdquo;</p>
+          <cite>Joshua 1:9</cite>
+        </blockquote>
+
+        <div class="hero__cta">
+          <a href="/projects" class="btn btn--white">View My Work</a>
+          <a href="/contact"  class="btn btn--outline" style="border-color:rgba(255,255,255,0.5);color:#fff;">Contact Me</a>
+        </div>
+      </div>
+
+      <!-- Photo -->
+      <div class="hero__image-wrap">
+        <div class="hero__image-ring">
+          <img
+            src="assets/images/Hero image.png"
+            alt="Connery Wollam"
+            class="hero__img"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="hero__scroll-hint" role="button" aria-label="Scroll down">
+      <span>Scroll</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== QUICK NAV CARDS ===== -->
+  <main>
+    <section class="quick-nav container">
+      <h2 class="section-title section-title--center reveal">Explore My Portfolio</h2>
+      <div class="section-divider section-divider--center reveal reveal--delay-1"></div>
+
+      <div class="quick-nav__grid">
+        <a href="/about" class="quick-nav__card reveal reveal--delay-1">
+          <div class="quick-nav__icon">👤</div>
+          <div class="quick-nav__label">About Me</div>
+          <div class="quick-nav__desc">My background, skills, and story</div>
+        </a>
+        <a href="/interests" class="quick-nav__card reveal reveal--delay-2">
+          <div class="quick-nav__icon">✦</div>
+          <div class="quick-nav__label">Interests</div>
+          <div class="quick-nav__desc">What drives and inspires me</div>
+        </a>
+        <a href="/missions" class="quick-nav__card reveal reveal--delay-3">
+          <div class="quick-nav__icon">✝</div>
+          <div class="quick-nav__label">Missions</div>
+          <div class="quick-nav__desc">Serving around the world</div>
+        </a>
+        <a href="/experience" class="quick-nav__card reveal reveal--delay-3">
+          <div class="quick-nav__icon">💼</div>
+          <div class="quick-nav__label">Experience</div>
+          <div class="quick-nav__desc">Work history and education</div>
+        </a>
+        <a href="/projects" class="quick-nav__card reveal reveal--delay-4">
+          <div class="quick-nav__icon">🗂</div>
+          <div class="quick-nav__label">Projects</div>
+          <div class="quick-nav__desc">My design and development work</div>
+        </a>
+        <a href="/contact" class="quick-nav__card reveal reveal--delay-5">
+          <div class="quick-nav__icon">✉</div>
+          <div class="quick-nav__label">Contact</div>
+          <div class="quick-nav__desc">Let&rsquo;s work together</div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__name">Connery Wollam</div>
+      <nav class="footer__links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/interests">Interests</a>
+        <a href="/missions">Missions</a>
+        <a href="/experience">Experience</a>
+        <a href="/projects">Projects</a>
+        <a href="/contact">Contact</a>
+      </nav>
+      <div class="footer__socials">
+
+        <a href="https://www.linkedin.com/in/connery-wollam/" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      </div>
+      <p class="footer__copy">&copy; <span id="year"></span> Connery Wollam. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

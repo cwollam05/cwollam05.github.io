@@ -1,0 +1,76 @@
+/* ============================================================
+   INTERESTS PAGE STYLES
+   ============================================================ */
+
+.interests-grid {
+  padding: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.75rem;
+}
+
+.interest-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.interest-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), var(--highlight));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(46, 134, 193, 0.3);
+}
+
+.interest-card:hover::before { transform: scaleX(1); }
+
+.interest-card__icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.1rem;
+  line-height: 1;
+}
+
+.interest-card__title {
+  font-family: var(--font-head);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.6rem;
+}
+
+.interest-card__body {
+  color: var(--text-muted);
+  font-size: 0.93rem;
+  line-height: 1.7;
+}
+
+/* Intro blurb above the grid */
+.interests-intro {
+  padding: 4rem 0 0;
+  max-width: 620px;
+}
+
+.interests-intro p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+  .interests-grid { grid-template-columns: 1fr; }
+}

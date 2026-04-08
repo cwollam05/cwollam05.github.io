@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(python -version 2>/dev/null || node --version 2>/dev/null)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(powershell -Command ':*)",
+      "Bash(python:*)",
+      "Bash(sed -n '74,90p' \"C:\\\\Users\\\\Connery\\\\OneDrive\\\\Portfolio\\\\css\\\\interests.css\")",
+      "Bash(sed -n '165,185p' \"C:\\\\Users\\\\Connery\\\\OneDrive\\\\Portfolio\\\\css\\\\projects.css\")",
+      "Bash(sed -n '197,220p' \"C:\\\\Users\\\\Connery\\\\OneDrive\\\\Portfolio\\\\css\\\\contact.css\")"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found — Connery Wollam</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .not-found {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .not-found__inner { max-width: 480px; }
+    .not-found__code {
+      font-family: var(--font-head);
+      font-size: clamp(6rem, 20vw, 10rem);
+      font-weight: 800;
+      line-height: 1;
+      color: var(--accent);
+      opacity: 0.18;
+      margin-bottom: -1rem;
+      letter-spacing: -4px;
+    }
+    .not-found__title {
+      font-family: var(--font-head);
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+    .not-found__desc {
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav nav--dark">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">Connery Wollam</a>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/interests">Interests</a></li>
+        <li><a href="/missions">Missions</a></li>
+        <li><a href="/experience">Experience</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="not-found">
+    <div class="not-found__inner">
+      <div class="not-found__code">404</div>
+      <h1 class="not-found__title">Page Not Found</h1>
+      <p class="not-found__desc">The page you're looking for doesn't exist or may have been moved.</p>
+      <a href="/" class="btn btn--primary">Back to Home</a>
+    </div>
+  </main>
+
+  <script>document.getElementById && (document.querySelector('.nav__toggle') && void 0);</script>
+  <script src="js/main.js"></script>
+</body>
+</html>
