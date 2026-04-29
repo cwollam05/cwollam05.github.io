@@ -2,13 +2,6 @@
    MISSIONS PAGE STYLES
    ============================================================ */
 
-/* Disable scroll reveal animations — this page is shared widely for
-   fundraising and should be fully visible without any interaction. */
-.reveal {
-  opacity: 1 !important;
-  transform: none !important;
-  transition: none !important;
-}
 
 .footer { margin-top: 0; }
 
@@ -259,6 +252,51 @@
   font-size: 0.9rem;
   color: var(--text-muted);
   margin-bottom: 2rem;
+}
+
+/* Fundraising progress bar */
+.fundraising-progress {
+  margin-bottom: 2rem;
+}
+
+.fundraising-progress__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.fundraising-progress__raised {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--primary);
+}
+
+.fundraising-progress__goal {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.fundraising-progress__bar-track {
+  width: 100%;
+  height: 12px;
+  background: var(--border);
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.fundraising-progress__bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--highlight));
+  border-radius: 100px;
+  transition: width 1s ease;
+}
+
+.fundraising-progress__note {
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
 }
 
 .donate-methods {

@@ -396,6 +396,7 @@ ul { list-style: none; }
 .reveal--delay-3 { transition-delay: 0.3s; }
 .reveal--delay-4 { transition-delay: 0.4s; }
 .reveal--delay-5 { transition-delay: 0.5s; }
+.reveal--delay-6 { transition-delay: 0.6s; }
 
 /* ============================================================
    BACK TO TOP
