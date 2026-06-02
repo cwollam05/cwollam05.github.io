@@ -1,22 +1,8 @@
 {
   "upcomingTrip": {
-    "title": "Upcoming Trip — July 2026",
-    "dates": "July 25 – 31, 2026",
-    "destination": "Dominican Republic",
-    "location": "Sosúa",
-    "church": "University Carillon, Oviedo FL",
-    "ministry": "Rick Sucher Ministries",
-    "photo": "/assets/images/DR Trip 1 - 4.jpeg",
-    "activities": [
-      "Children's feeding programs",
-      "VBS activities with local kids",
-      "Evangelism at Redemption Village",
-      "Distributing water filtration systems",
-      "Serving roughly 3,000 residents, mostly Haitian refugees"
-    ],
     "fundraising": {
       "deadline": "June 20, 2026",
-      "amountRaised": 900,
+      "amountRaised": 1500,
       "goal": 1725,
       "progressNote": "Progress bar will update once the payment is processed.",
       "tripCostNote": "The total cost of the trip is approximately $1,700 per person, covering transportation, lodging, meals, and supplies. Any amount helps and is genuinely appreciated. Contributions are tax deductible and non-refundable. Thank you for being a part of this mission!",
@@ -34,7 +20,21 @@
         "note": "Do not put my name on the check",
         "address": "University Carillon Church\nATTN: 2026 DR Mission Trip\n1395 Campus View Court\nOviedo, FL 32765"
       }
-    }
+    },
+    "dates": "July 25 – 31, 2026",
+    "church": "University Carillon, Oviedo FL",
+    "activities": [
+      "Children's feeding programs",
+      "VBS activities with local kids",
+      "Evangelism at Redemption Village",
+      "Distributing water filtration systems",
+      "Serving roughly 3,000 residents, mostly Haitian refugees"
+    ],
+    "destination": "Dominican Republic",
+    "photo": "/assets/images/DR Trip 1 - 4.jpeg",
+    "location": "Sosúa",
+    "title": "Upcoming Trip — July 2026",
+    "ministry": "Rick Sucher Ministries"
   },
   "pastTrips": [
     {
