@@ -37,7 +37,6 @@ collections:
                   - { label: "Deadline", name: "deadline", widget: "string", required: false }
                   - { label: "Amount Raised ($)", name: "amountRaised", widget: "number", required: false }
                   - { label: "Goal ($)", name: "goal", widget: "number", required: false }
-                  - { label: "Progress Percent", name: "progressPercent", widget: "number", required: false, hint: "e.g. 52.2 for 52.2%" }
                   - { label: "Progress Note", name: "progressNote", widget: "string", required: false }
                   - { label: "Trip Cost Note", name: "tripCostNote", widget: "text", required: false }
                   - { label: "Donate Online URL", name: "donateOnlineUrl", widget: "string", required: false }

@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="fundraising-progress__goal">Goal: $${f.goal.toLocaleString()}</span>
             </div>
             <div class="fundraising-progress__bar-track">
-              <div class="fundraising-progress__bar-fill" style="width: ${f.progressPercent}%"></div>
+              <div class="fundraising-progress__bar-fill" style="width: ${Math.min((f.amountRaised / f.goal) * 100, 100).toFixed(1)}%"></div>
             </div>
             <p class="fundraising-progress__note">${f.progressNote}</p>
           </div>
