@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   fetch('/content/projects.json')
     .then(res => res.json())
-    .then(projects => renderCards(projects))
+    .then(data => renderCards(data.projects))
     .catch(() => {
       grid.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:2rem;">Could not load projects.</p>';
     });

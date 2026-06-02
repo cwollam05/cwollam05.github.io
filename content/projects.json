@@ -1,43 +1,45 @@
-[
-  {
-    "title": "Personal Portfolio Website",
-    "description": "A custom portfolio site built with vanilla HTML, CSS, and JavaScript, no frameworks at all. It covers my graphic design, video, and web work with smooth animations, a clean mobile layout, and a contact form.",
-    "tags": ["web"],
-    "displayTags": ["Web", "HTML/CSS", "JavaScript"],
-    "thumbnail": "/assets/images/My portfolio.png",
-    "links": [
-      { "label": "Live Site", "url": "https://connerywollam.com" }
-    ]
-  },
-  {
-    "title": "Explorlando",
-    "description": "A group project me and my team built, a website for all the local and budget friendly things to do around Orlando. The purpose is to find the hidden gems, not the tourist traps.",
-    "tags": ["web"],
-    "displayTags": ["Web", "HTML/CSS", "JavaScript", "PHP", "MySQL"],
-    "thumbnail": "/assets/images/Explorlando.png",
-    "links": [
-      { "label": "Live Site", "url": "https://explorlando-production.up.railway.app/pages/home/home.html" },
-      { "label": "GitHub", "url": "https://github.com/sburbank22/Explorlando" }
-    ]
-  },
-  {
-    "title": "Day in the Life Vlog",
-    "description": "A vlog I filmed and edited for the apartment complex I was living at, capturing everyday moments and giving people a real look at the community.",
-    "tags": ["video"],
-    "displayTags": ["Video", "Vlog"],
-    "thumbnail": "/assets/images/Day in the life.png",
-    "links": [
-      { "label": "Watch", "url": "https://www.instagram.com/p/DPcEMghDLx4/" }
-    ]
-  },
-  {
-    "title": "Work Video",
-    "description": "A product video I edited for my job, made to walk customers through a product in a clear and easy to follow way.",
-    "tags": ["video"],
-    "displayTags": ["Video", "Product"],
-    "thumbnail": "/assets/images/Work video.png",
-    "links": [
-      { "label": "Watch", "url": "https://drive.google.com/file/d/1F2qGDfRca-B2RLP9_bZrmDgfEMjRYOwb/view?usp=sharing" }
-    ]
-  }
-]
+{
+  "projects": [
+    {
+      "title": "Personal Portfolio Website",
+      "description": "A custom portfolio site built with vanilla HTML, CSS, and JavaScript, no frameworks at all. It covers my graphic design, video, and web work with smooth animations, a clean mobile layout, and a contact form.",
+      "tags": ["web"],
+      "displayTags": ["Web", "HTML/CSS", "JavaScript"],
+      "thumbnail": "/assets/images/My portfolio.png",
+      "links": [
+        { "label": "Live Site", "url": "https://connerywollam.com" }
+      ]
+    },
+    {
+      "title": "Explorlando",
+      "description": "A group project me and my team built, a website for all the local and budget friendly things to do around Orlando. The purpose is to find the hidden gems, not the tourist traps.",
+      "tags": ["web"],
+      "displayTags": ["Web", "HTML/CSS", "JavaScript", "PHP", "MySQL"],
+      "thumbnail": "/assets/images/Explorlando.png",
+      "links": [
+        { "label": "Live Site", "url": "https://explorlando-production.up.railway.app/pages/home/home.html" },
+        { "label": "GitHub", "url": "https://github.com/sburbank22/Explorlando" }
+      ]
+    },
+    {
+      "title": "Day in the Life Vlog",
+      "description": "A vlog I filmed and edited for the apartment complex I was living at, capturing everyday moments and giving people a real look at the community.",
+      "tags": ["video"],
+      "displayTags": ["Video", "Vlog"],
+      "thumbnail": "/assets/images/Day in the life.png",
+      "links": [
+        { "label": "Watch", "url": "https://www.instagram.com/p/DPcEMghDLx4/" }
+      ]
+    },
+    {
+      "title": "Work Video",
+      "description": "A product video I edited for my job, made to walk customers through a product in a clear and easy to follow way.",
+      "tags": ["video"],
+      "displayTags": ["Video", "Product"],
+      "thumbnail": "/assets/images/Work video.png",
+      "links": [
+        { "label": "Watch", "url": "https://drive.google.com/file/d/1F2qGDfRca-B2RLP9_bZrmDgfEMjRYOwb/view?usp=sharing" }
+      ]
+    }
+  ]
+}
