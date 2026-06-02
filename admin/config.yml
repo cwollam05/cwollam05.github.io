@@ -6,6 +6,68 @@ media_folder: "assets/images"
 public_folder: "/assets/images"
 
 collections:
+  - name: "missions"
+    label: "Missions"
+    files:
+      - name: "missions"
+        label: "Missions Page"
+        file: "content/missions.json"
+        fields:
+          - label: "Upcoming Trip"
+            name: "upcomingTrip"
+            widget: "object"
+            hint: "Clear the title field to hide the upcoming trip section entirely"
+            fields:
+              - { label: "Section Title", name: "title", widget: "string", required: false, hint: "e.g. Upcoming Trip — July 2026. Leave blank to hide this section." }
+              - { label: "Dates", name: "dates", widget: "string", required: false }
+              - { label: "Destination", name: "destination", widget: "string", required: false }
+              - { label: "Location", name: "location", widget: "string", required: false }
+              - { label: "Church", name: "church", widget: "string", required: false }
+              - { label: "Ministry", name: "ministry", widget: "string", required: false }
+              - { label: "Trip Photo", name: "photo", widget: "image", required: false }
+              - label: "Activities"
+                name: "activities"
+                widget: "list"
+                required: false
+              - label: "Fundraising"
+                name: "fundraising"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Deadline", name: "deadline", widget: "string", required: false }
+                  - { label: "Amount Raised ($)", name: "amountRaised", widget: "number", required: false }
+                  - { label: "Goal ($)", name: "goal", widget: "number", required: false }
+                  - { label: "Progress Percent", name: "progressPercent", widget: "number", required: false, hint: "e.g. 52.2 for 52.2%" }
+                  - { label: "Progress Note", name: "progressNote", widget: "string", required: false }
+                  - { label: "Trip Cost Note", name: "tripCostNote", widget: "text", required: false }
+                  - { label: "Donate Online URL", name: "donateOnlineUrl", widget: "string", required: false }
+                  - label: "Donate Online Steps"
+                    name: "donateOnlineSteps"
+                    widget: "list"
+                    required: false
+                  - label: "Donate By Mail"
+                    name: "donateByMail"
+                    widget: "object"
+                    required: false
+                    fields:
+                      - { label: "Payable To", name: "payableTo", widget: "string", required: false }
+                      - { label: "Note", name: "note", widget: "string", required: false }
+                      - { label: "Address", name: "address", widget: "text", required: false, hint: "Use line breaks to separate address lines" }
+          - label: "Past Trips"
+            name: "pastTrips"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Organization", name: "org", widget: "string" }
+              - { label: "Flag Image", name: "flag", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Photos"
+                name: "photos"
+                widget: "list"
+                field: { label: "Photo", name: "photo", widget: "image" }
+
   - name: "projects"
     label: "Projects"
     files:

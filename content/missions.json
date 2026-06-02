@@ -1,0 +1,70 @@
+{
+  "upcomingTrip": {
+    "title": "Upcoming Trip — July 2026",
+    "dates": "July 25 – 31, 2026",
+    "destination": "Dominican Republic",
+    "location": "Sosúa",
+    "church": "University Carillon, Oviedo FL",
+    "ministry": "Rick Sucher Ministries",
+    "photo": "/assets/images/DR Trip 1 - 4.jpeg",
+    "activities": [
+      "Children's feeding programs",
+      "VBS activities with local kids",
+      "Evangelism at Redemption Village",
+      "Distributing water filtration systems",
+      "Serving roughly 3,000 residents, mostly Haitian refugees"
+    ],
+    "fundraising": {
+      "deadline": "June 20, 2026",
+      "amountRaised": 900,
+      "goal": 1725,
+      "progressPercent": 52.2,
+      "progressNote": "Progress bar will update once the payment is processed.",
+      "tripCostNote": "The total cost of the trip is approximately $1,700 per person, covering transportation, lodging, meals, and supplies. Any amount helps and is genuinely appreciated. Contributions are tax deductible and non-refundable. Thank you for being a part of this mission!",
+      "donateOnlineUrl": "https://onrealm.org/UniversityCaril/-/form/give/now",
+      "donateOnlineSteps": [
+        "Click the Donate Now button below",
+        "Enter your donation amount",
+        "In the Fund dropdown, select DR Mission Trip",
+        "In the Memo field, enter Wollam",
+        "Fill in the gift date and your email address",
+        "Select Continue and enter your credit card info"
+      ],
+      "donateByMail": {
+        "payableTo": "University Carillon Church",
+        "note": "Do not put my name on the check",
+        "address": "University Carillon Church\nATTN: 2026 DR Mission Trip\n1395 Campus View Court\nOviedo, FL 32765"
+      }
+    }
+  },
+  "pastTrips": [
+    {
+      "date": "July 26 – August 1, 2025",
+      "title": "Dominican Republic — Trip 1",
+      "org": "University Carillon • Rick Sucher Ministries",
+      "flag": "/assets/images/DR flag.png",
+      "description": "This was my first mission trip ever. We traveled to the Dominican Republic to serve in Sosúa, and specifically at Redemption Village, a community of about 3,000 people, most of them Haitian refugees. We ran VBS activities and children's feeding programs, shared the gospel, and painted a house inside and out that had been built by a previous mission team for a woman in need. It was one of the most eye-opening and humbling experiences of my life, and it completely changed how I see the world.",
+      "photos": [
+        "/assets/images/DR Trip 1 - 1.jpeg",
+        "/assets/images/DR Trip 1 - 2.jpeg",
+        "/assets/images/DR Trip 1 - 3.jpeg",
+        "/assets/images/DR Trip 1 - 4.jpeg",
+        "/assets/images/DR Trip 1 - 5.JPEG"
+      ]
+    },
+    {
+      "date": "December 14 – 21, 2025",
+      "title": "Dominican Republic — Trip 2",
+      "org": "University Carillon • Rick Sucher Ministries",
+      "flag": "/assets/images/DR flag.png",
+      "description": "My second trip back to the Dominican Republic, and just as impactful as the first. We returned to Redemption Village to hang out with the kids and help with their Christmas program. Our team went to a toy store and cleared the shelves, giving out free toys to boys and girls of all ages. We also ran a food distribution, buying and packaging canned and dry food into 600 bags that were handed out to families across four different distribution sites. Going even deeper in serving the community and seeing familiar faces again was an incredible experience. Each trip I feel more called to keep going back and doing this work.",
+      "photos": [
+        "/assets/images/DR Trip 2 - 1.jpeg",
+        "/assets/images/DR Trip 2 - 2.JPEG",
+        "/assets/images/DR Trip 2 - 3.JPEG",
+        "/assets/images/DR Trip 2 - 4.jpeg",
+        "/assets/images/DR Trip 2 - 5.jpeg"
+      ]
+    }
+  ]
+}

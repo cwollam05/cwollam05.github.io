@@ -43,170 +43,24 @@
 
   <main>
 
-    <!-- ===== UPCOMING TRIP ===== -->
-    <section class="upcoming-section">
-      <div class="upcoming-inner">
-
-        <div class="upcoming-header reveal">
-          <h2 class="section-title">Upcoming Trip &mdash; July 2026</h2>
-          <div class="section-divider reveal--delay-1"></div>
-        </div>
-
-        <div class="upcoming-grid reveal reveal--delay-1">
-
-          <div class="upcoming-trip-photo">
-            <img src="/assets/images/DR Trip 1 - 4.jpeg" alt="Past mission trip to the Dominican Republic" />
-          </div>
-
-          <div class="upcoming-detail-card">
-            <h3>Trip Details</h3>
-            <p>
-              <strong>Dates:</strong> July 25 &ndash; 31, 2026<br>
-              <strong>Destination:</strong> Dominican Republic<br>
-              <strong>Location:</strong> Sosúa<br>
-              <strong>Church:</strong> University Carillon, Oviedo FL<br>
-              <strong>Supported Ministry:</strong> Rick Sucher Ministries
-            </p>
-          </div>
-
-          <div class="upcoming-detail-card">
-            <h3>What We'll Be Doing</h3>
-            <ul>
-              <li>Children's feeding programs</li>
-              <li>VBS activities with local kids</li>
-              <li>Evangelism at Redemption Village</li>
-              <li>Distributing water filtration systems</li>
-              <li>Serving roughly 3,000 residents, mostly Haitian refugees</li>
-            </ul>
-          </div>
-
-        </div>
-
-        <!-- Past trips link -->
-        <div class="past-trips-link reveal reveal--delay-2">
-          <a href="#past-trips" class="btn btn--outline">See My Past Trips</a>
-        </div>
-
-        <!-- Donate -->
-        <div class="reveal reveal--delay-2">
-          <div class="deadline-badge">Fundraising Deadline &mdash; June 20, 2026</div>
-          <div class="donate-section-title">Support This Trip</div>
-          <p class="donate-note">
-            The total cost of the trip is approximately $1,700 per person, covering transportation, lodging, meals, and supplies. Any amount helps and is genuinely appreciated. Contributions are tax deductible and non-refundable. Thank you for being a part of this mission!
-          </p>
-
-          <div class="fundraising-progress">
-            <div class="fundraising-progress__header">
-              <span class="fundraising-progress__raised">$900 raised</span>
-              <span class="fundraising-progress__goal">Goal: $1,725</span>
-            </div>
-            <div class="fundraising-progress__bar-track">
-              <div class="fundraising-progress__bar-fill" style="width: 52.2%"></div>
-            </div>
-            <p class="fundraising-progress__note">Progress bar will update once the payment is processed.</p>
-          </div>
-
-          <div class="donate-methods">
-
-            <div class="donate-method">
-              <div class="donate-method__icon">💻</div>
-              <div class="donate-method__title">Give Online (Preferred)</div>
-              <ol>
-                <li>Click the Donate Now button below</li>
-                <li>Enter your donation amount</li>
-                <li>In the <strong>Fund</strong> dropdown, select <strong>DR Mission Trip</strong></li>
-                <li>In the <strong>Memo</strong> field, enter <strong>Wollam</strong></li>
-                <li>Fill in the gift date and your email address</li>
-                <li>Select <strong>Continue</strong> and enter your credit card info</li>
-              </ol>
-              <div class="donate-cta">
-                <a href="https://onrealm.org/UniversityCaril/-/form/give/now" target="_blank" rel="noopener" class="btn--glow">Donate Now</a>
-              </div>
-            </div>
-
-            <div class="donate-method">
-              <div class="donate-method__icon">✉️</div>
-              <div class="donate-method__title">Give By Mail</div>
-              <ul>
-                <li>Make checks payable to: <strong>University Carillon Church</strong></li>
-                <li>Do <strong>not</strong> put my name on the check</li>
-                <li>Mail to:<br>
-                  University Carillon Church<br>
-                  ATTN: 2026 DR Mission Trip<br>
-                  1395 Campus View Court<br>
-                  Oviedo, FL 32765
-                </li>
-              </ul>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section>
+    <!-- ===== UPCOMING TRIP — rendered by missions.js ===== -->
+    <section class="upcoming-section" id="upcoming-section"></section>
 
     <!-- ===== PAST TRIPS ===== -->
     <section class="past-trips-section" id="past-trips">
       <div class="past-trips-inner">
-      <h2 class="section-title reveal">Past Trips</h2>
-      <div class="section-divider reveal reveal--delay-1"></div>
+        <h2 class="section-title reveal">Past Trips</h2>
+        <div class="section-divider reveal reveal--delay-1"></div>
 
-      <div class="missions-intro reveal reveal--delay-1">
-        <p>
-          Missions is one of the most important parts of my life. Through my church, University Carillon, I've had the opportunity to travel to the Dominican Republic twice to serve alongside Rick Sucher Ministries. Each trip has pushed me outside my comfort zone, grown my faith, and reminded me what it really means to be the hands and feet of Jesus.
-        </p>
-      </div>
-
-      <!-- Trip 1 -->
-      <div class="trip-card reveal reveal--delay-1">
-        <div class="trip-card__header">
-          <div class="trip-card__flag"><img src="/assets/images/DR flag.png" alt="Dominican Republic flag" /></div>
-          <div class="trip-card__meta">
-            <div class="trip-card__date">July 26 &ndash; August 1, 2025</div>
-            <div class="trip-card__title">Dominican Republic &mdash; Trip 1</div>
-            <div class="trip-card__org">University Carillon &bull; Rick Sucher Ministries</div>
-          </div>
-        </div>
-        <div class="trip-card__body">
-          <p class="trip-card__desc">
-            This was my first mission trip ever. We traveled to the Dominican Republic to serve in Sosúa, and specifically at Redemption Village, a community of about 3,000 people, most of them Haitian refugees. We ran VBS activities and children's feeding programs, shared the gospel, and painted a house inside and out that had been built by a previous mission team for a woman in need. It was one of the most eye-opening and humbling experiences of my life, and it completely changed how I see the world.
+        <div class="missions-intro reveal reveal--delay-1">
+          <p>
+            Missions is one of the most important parts of my life. Through my church, University Carillon, I've had the opportunity to travel to the Dominican Republic twice to serve alongside Rick Sucher Ministries. Each trip has pushed me outside my comfort zone, grown my faith, and reminded me what it really means to be the hands and feet of Jesus.
           </p>
-          <div class="trip-photos">
-            <div class="trip-photo"><img src="/assets/images/DR Trip 1 - 1.jpeg" alt="DR Trip 1" /></div>
-            <div class="trip-photo"><img src="/assets/images/DR Trip 1 - 2.jpeg" alt="DR Trip 1" /></div>
-            <div class="trip-photo"><img src="/assets/images/DR Trip 1 - 3.jpeg" alt="DR Trip 1" /></div>
-            <div class="trip-photo"><img src="/assets/images/DR Trip 1 - 4.jpeg" alt="DR Trip 1" /></div>
-            <div class="trip-photo"><img src="/assets/images/DR Trip 1 - 5.JPEG" alt="DR Trip 1" /></div>
-          </div>
         </div>
-      </div>
 
-      <!-- Trip 2 -->
-      <div class="trip-card reveal reveal--delay-2">
-        <div class="trip-card__header">
-          <div class="trip-card__flag"><img src="/assets/images/DR flag.png" alt="Dominican Republic flag" /></div>
-          <div class="trip-card__meta">
-            <div class="trip-card__date">December 14 &ndash; 21, 2025</div>
-            <div class="trip-card__title">Dominican Republic &mdash; Trip 2</div>
-            <div class="trip-card__org">University Carillon &bull; Rick Sucher Ministries</div>
-          </div>
-        </div>
-        <div class="trip-card__body">
-          <p class="trip-card__desc">
-            My second trip back to the Dominican Republic, and just as impactful as the first. We returned to Redemption Village to hang out with the kids and help with their Christmas program. Our team went to a toy store and cleared the shelves, giving out free toys to boys and girls of all ages. We also ran a food distribution, buying and packaging canned and dry food into 600 bags that were handed out to families across four different distribution sites. Going even deeper in serving the community and seeing familiar faces again was an incredible experience. Each trip I feel more called to keep going back and doing this work.
-          </p>
-          <div class="trip-photos">
-            <div class="trip-photo"><img src="/assets/images/DR Trip 2 - 1.jpeg" alt="DR Trip 2" /></div>
-            <div class="trip-photo"><img src="/assets/images/DR Trip 2 - 2.JPEG" alt="DR Trip 2" /></div>
-            <div class="trip-photo"><img src="/assets/images/DR Trip 2 - 3.JPEG" alt="DR Trip 2" /></div>
-            <div class="trip-photo"><img src="/assets/images/DR Trip 2 - 4.jpeg" alt="DR Trip 2" /></div>
-            <div class="trip-photo"><img src="/assets/images/DR Trip 2 - 5.jpeg" alt="DR Trip 2" /></div>
-          </div>
-        </div>
+        <!-- Trip cards rendered by missions.js -->
+        <div id="past-trips-list"></div>
       </div>
-
-      </div><!-- /.past-trips-inner -->
     </section>
 
   </main>
@@ -246,19 +100,9 @@
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="/js/main.js"></script>
+  <script src="/js/missions.js"></script>
   <script>
     const lightbox = document.getElementById('lightbox');
-    const lightboxImg = document.getElementById('lightbox-img');
-
-    document.querySelectorAll('.trip-photo img').forEach(img => {
-      img.addEventListener('click', () => {
-        lightboxImg.src = img.src;
-        lightboxImg.alt = img.alt;
-        lightbox.classList.add('open');
-        document.body.style.overflow = 'hidden';
-      });
-    });
-
     lightbox.addEventListener('click', () => {
       lightbox.classList.remove('open');
       document.body.style.overflow = '';
