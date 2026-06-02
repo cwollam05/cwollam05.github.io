@@ -10,10 +10,10 @@
       "donateOnlineSteps": [
         "Click the Donate Now button below",
         "Enter your donation amount",
-        "In the Fund dropdown, select DR Mission Trip",
-        "In the Memo field, enter Wollam",
+        "In the <strong>Fund</strong> dropdown, select <strong>DR Mission Trip</strong>",
+        "In the <strong>Memo</strong> field, enter <strong>Wollam</strong>",
         "Fill in the gift date and your email address",
-        "Select Continue and enter your credit card info"
+        "Select <strong>Continue</strong> and enter your credit card info"
       ],
       "donateByMail": {
         "payableTo": "University Carillon Church",
